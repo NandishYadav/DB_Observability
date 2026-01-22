@@ -12,6 +12,13 @@ export default {
         "accent-amber": "#fa6538",
         "card-dark": "#161b2c",
         "border-dark": "#282b39",
+        "primary": "#0d59f2",
+        "background-dark": "#0b0c10",
+        "card-dark": "#161b22",
+        "panel-dark": "#0d1117",
+        "success-neon": "#39FF14",
+        "warning-amber": "#FFBF00",
+        "critical-red": "#FF3131"
       },
       fontFamily: {
         display: ["Manrope", "sans-serif"],

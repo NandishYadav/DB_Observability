@@ -1,6 +1,14 @@
+
+import CpuMetric from "./cpuMetric";
+
 export default function MetricCards() {
   return (
-    <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <div>
+      <div>
+        <CpuMetric />
+      </div>
+      <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {/* CPU */}
      <div className="bg-white dark:bg-card-dark rounded-xl border border-slate-200 dark:border-border-dark p-6 flex flex-col gap-3">
             <div className="flex justify-between items-start">
@@ -117,6 +125,7 @@ export default function MetricCards() {
               <div className="flex-1 bg-primary/50 h-3/4 rounded-t-sm" />
             </div>
           </div>
+    </div>
     </div>
   );
 }
